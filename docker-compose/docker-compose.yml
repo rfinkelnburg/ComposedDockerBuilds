@@ -1,0 +1,7 @@
+version: '2'
+services:
+  php_v1:
+    container_name: php_v1
+    build:
+      context: .
+      dockerfile: ./php_v1.dockerfile
